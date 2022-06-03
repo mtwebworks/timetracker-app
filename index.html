@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTracker</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="src/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="src/TimeTracker.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/bc83d60f32.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="light-theme">
+    <div class="container">
+        <div class="timer" data-timer>
+            <p class="timer__title" data-timer-title></p>
+            <div class="timer__progres-bar">
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+                <div class="timer__bar-element" data-progres-element></div>
+            </div>
+            <p class="timer__value" data-timer-current="current">00:00:00</p>
+            <p class="timer__end" data-timer-total="total">00:00:00</p>
+            <div class="timer__control-btns">
+                <button class="timer__btn" data-timer-start><i class="fa-solid fa-play"></i></button>
+                <button class="timer__btn" data-timer-pause><i class="fa-solid fa-pause"></i></button>
+                <button class="timer__btn" data-timer-stop><i class="fa-solid fa-stop"></i></button>
+            </div>
+
+        </div>
+        <div class="devider"></div>
+        <div class="works" data-works>
+            <div class="works__nav" data-works-nav>
+                <button class="works__btn" data-nav-btn="previous"><i class="fa-solid fa-chevron-left"></i></button>
+                <p class="works__day" works-date>Today</p>
+                <button class="works__btn works__btn--hidden" data-nav-btn="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <ul class="works-list" data-works-list>
+            </ul>
+            <div class="works-list__summary">
+                <button class="works-list__add-btn" data-addbtn>
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+                <p class="works-list__total-time" data-total-time>Total: 0 h 00 min</p>
+            </div>
+        </div>
+    </div>
+    <button class="dark-mode-btn">
+        <i class="fa-solid fa-circle-half-stroke dark-mode-btn__icon"></i>
+    </button>
+    <script src="https://kit.fontawesome.com/bc83d60f32.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "timetracker-app",
+  "version": "1.0.0",
+  "description": "Timetracker app - tracks you daily workflow.",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -o index.html"
+  },
+  "author": "Mateusz Jakubczyk",
+  "license": "",
+  "dependencies": {
+    "http-server": "14.0.0"
+  }
+}
